@@ -1,0 +1,12 @@
+<div class="container">
+  <h1>COUNTDOWN 2021</h1>
+  <div class="group-actions">
+    <button (click)="functionStart()">start</button>
+    <button (click)="functionStop()">stop</button>
+    <button (click)="functionReset()">reset</button>
+  </div>
+  <div class="timer">
+    <span class="timer-text">{{_remainingTime}}</span>
+  </div>
+  <p>{{message}}</p>
+</div>
